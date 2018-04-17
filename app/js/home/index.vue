@@ -5,6 +5,10 @@
     <Wealth/>
     <News/>
     <Safe/>
+    <Has-car-money/>
+    <User/>
+    <Footor/>
+    <Navbar/>
   </div>
 </template>
 
@@ -14,6 +18,10 @@
   import Wealth from "./Wealth.vue";
   import News from "./news.vue";
   import Safe from "./safe.vue";
+  import HasCarMoney from "./hasCarMoney.vue";
+  import User from "./User.vue";
+  import Footor from "../public/footer.vue";
+  import Navbar from "../public/navbar.vue";
 export default {
  
   data() {
@@ -27,6 +35,10 @@ export default {
     Wealth,
     News,
     Safe,
+    HasCarMoney,
+    User,
+    Footor,
+    Navbar,
   }
 }
 </script>

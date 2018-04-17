@@ -42,7 +42,7 @@ export default {
 }
 </script>
 <style  lang="scss" >
-.swiper-container{
+.sl .swiper-container{
     padding:0 24px;
     .swiper-slide{
         img{

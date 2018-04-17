@@ -42,6 +42,7 @@ export default {
 
 <style  lang="scss" module>
 @import "../../css/element.scss";
+$fontSize: 24px;
 .lcjx .content{
     @include list(row);
     width:100%;
@@ -59,20 +60,23 @@ export default {
     .item {
         width:50%;
         box-sizing:border-box;
-        padding:30px 30px 60px 32px;
+        padding:30px 28px 60px 30px;
          dt:nth-child(1){
              position:relative;
             font-size:30px;
             line-height:75px;
             color:#333;
             span{
+                display: block;
                 border:1px solid red;
                 color:red;
-                padding:6px;
-                font-size:24px;
+                padding:4px;
+                font-size:$fontSize;
                 line-height:26px;
                 position:absolute;
-                top:-1px;
+                top:16px;
+                left:$fontSize*5.2;
+                // right:-12px;
             }
         }
          dt:nth-child(2){
