@@ -1,7 +1,8 @@
 <template>
   <div title="首页">
     <heador/>
-    
+    <Aslider/>
+    <Bslider/>
     <Footor/>
     <Navbar/>
   </div>
@@ -9,6 +10,8 @@
 
 <script > 
   import heador from "../public/header.vue";
+  import Aslider from "../money/aslider.vue";
+  import Bslider from "../money/bslider.vue";
   import Footor from "../public/footer.vue";
   import Navbar from "../public/navbar.vue";
 export default {
@@ -20,7 +23,8 @@ export default {
   },
   components: {
     heador,
-    
+    Aslider,
+    Bslider,
     Footor,
     Navbar,
   }

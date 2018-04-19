@@ -62,6 +62,7 @@ export default {
     background-color: #fff;
     width:100%;
     position:fixed;
+    z-index: 101;
     bottom:0;
     @include list(row);
     justify-content:space-around;

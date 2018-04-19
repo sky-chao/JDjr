@@ -69,6 +69,9 @@ export default {
         a{
             text-align:center;
             text-decoration:none;
+            img{
+                width: 90px;
+            }
             p{
                 font-size:26px;
                 color:#666;
