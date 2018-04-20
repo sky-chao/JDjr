@@ -1,5 +1,5 @@
 <template lang="html">
-  <Panel title="理财精选" :cname="$style.lcjx" >
+  <Panel title="-理财精选-" :cname="$style.lcjx" >
       <article :class="$style.content">
           <dl :class="$style.item">
               <dt>定期理财<span>90天可质押</span></dt>

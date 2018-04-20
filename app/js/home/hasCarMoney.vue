@@ -1,5 +1,5 @@
 <template lang="html">
-  <panel title="有车有钱" :cname="$style.hcamy">
+  <panel title="-有车有钱-" :cname="$style.hcamy">
       <section :class="$style.pro">
           <img v-for="item in producs" :src="item.src" :href="item.href"></img>
       </section>
