@@ -9,6 +9,8 @@
     <Hot/>
     <Ad1/>
     <Bars/>
+    <Stock/>
+    <Feature/>
     <Footor/>
     <Navbar/>
   </div>
@@ -24,6 +26,8 @@
   import Hot from "../money/hot.vue";
   import Ad1 from "../money/Ad1.vue";
   import Bars from "../money/Bars.vue";
+  import Stock from "../money/stock.vue";
+  import Feature from "../money/feature.vue";
   import Footor from "../public/footer.vue";
   import Navbar from "../public/navbar.vue";
 export default {
@@ -39,6 +43,8 @@ export default {
     Hot,
     Ad1,
     Bars,
+    Stock,
+    Feature,
   }
 }
 </script>
