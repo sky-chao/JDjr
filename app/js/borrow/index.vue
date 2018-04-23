@@ -3,6 +3,9 @@
     <Banner/>
     <Aslider/>
     <Navbar/>
+    <Havecar/>
+    <Wihtebar/>
+    <Boutique/>
   </div>
 </template>
 
@@ -10,11 +13,17 @@
 import Banner from "../borrow/banner.vue";
 import Aslider from "../borrow/Aslider.vue";
 import Navbar from "../public/navbar.vue";
+import Havecar from "../borrow/havecar.vue";
+import Wihtebar from "../borrow/wihtebar.vue";
+import Boutique from "../borrow/Boutique.vue";
 export default {
   components: {
     Navbar,
     Banner,
     Aslider,
+    Havecar,
+    Wihtebar,
+    Boutique,
   }
 }
 </script>
